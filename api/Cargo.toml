@@ -1,0 +1,9 @@
+[package]
+name = "jito-stakenet-api"
+version = "0.1.1"
+edition = "2021"
+
+
+[dependencies]
+axum = "0.5.17"
+tokio = { version = "~1.14.1", features = ["full"] }
